@@ -25,6 +25,7 @@ export type VideoModel = {
 
 export const IMAGE_MODELS: ImageModel[] = [
   // Nano Banana (Gemini 2.5)
+  { label: "Nano Banana 2",         id: "nano-banana-2",         family: "nano-banana", costHint: "Premium" },
   { label: "Nano Banana Pro",       id: "nano-banana-pro",       family: "nano-banana", costHint: "Premium" },
   { label: "Nano Banana Pro Flash", id: "nano-banana-pro-flash", family: "nano-banana", costHint: "Rápido" },
   // Google Imagen
